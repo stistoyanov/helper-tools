@@ -10,7 +10,7 @@
       "email": "sstoyanov@credissimo.bg"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": "^5.5|^7.0",
     "symfony/var-dumper": "^3.2"
