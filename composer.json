@@ -1,0 +1,23 @@
+{
+  "name": "stistoyanov/helper-tools",
+  "description": "Helper tools library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stiliyan Stoyanov",
+      "email": "sstoyanov@credissimo.bg"
+    }
+  ],
+  "require": {
+    "symfony/var-dumper": "^3.2"
+  },
+  "autoload": {
+    "files": [
+      "src/St/helpers.php"
+    ],
+    "psr-4": {
+      "St\\": "src/St"
+    }
+  }
+}
