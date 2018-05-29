@@ -43,7 +43,6 @@ if (!function_exists('getDatesPeriod')) {
      * @param $endDate
      * @param null $format
      * @return array
-     * @throws Exception
      */
     function getDatesPeriod($startDate, $endDate, $format = null)
     {
