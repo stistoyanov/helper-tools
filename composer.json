@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "name": "stistoyanov/helper-tools",
   "description": "Helper tools library",
   "type": "library",
@@ -10,7 +10,7 @@
       "email": "sstoyanov@credissimo.bg"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": "^5.5|^7.0",
     "symfony/var-dumper": "^3.2"
