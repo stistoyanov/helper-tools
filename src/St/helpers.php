@@ -85,13 +85,12 @@ if (!function_exists('ds')) {
      */
     function ds($sql = '', $die = true, $output = true)
     {
-        // ->getQuery()->getSqlString()
         if (is_object($sql)) {
             if (method_exists($sql, "toSql")) {
                 $sql = $sql->toSql();
-            } else if (method_exists($sql, "getSqlString()")) {
+            } else if (method_exists($sql, "getSqlString")) {
                 $sql = $sql->getSqlString();
-            } else if (method_exists($sql, "getQuery()")) {
+            } else if (method_exists($sql, "getQuery")) {
                 $sql = $sql->getQuery()->getSqlString();
             } else {
                 $sql = "Invalid input type.";
