@@ -243,7 +243,7 @@ if (!function_exists('vd')) {
     }
 }
 
-if (!function_exists('vd')) {
+if (!function_exists('dt')) {
     /**
      * Dump array in HTML table
      * @param $arr
